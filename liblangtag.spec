@@ -4,7 +4,7 @@
 #
 Name     : liblangtag
 Version  : 0.6.2
-Release  : 1
+Release  : 2
 URL      : https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.2.tar.bz2
 Source0  : https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.2.tar.bz2
 Summary  : Interface to access tags for identifying languages
