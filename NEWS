@@ -1,3 +1,23 @@
+0.6.2 -> 0.6.3
+=================
+Akira TAGOH (3):
+      Merged in Edward/liblangtag/Edward/fix-spelling-mistake-1486477267625 (pull request #9)
+      Fix possible null argument for %s directive
+      Add ax_check_enable_debug.m4 to satisfy requirement
+
+Caolán McNamara (1):
+      enable round tripping ca@valencia locale string back to ca@valencia again
+
+David Tardon (2):
+      coverity: fix memory leaks on failure
+      coverity: fix more memory leaks
+
+Edward Betts (1):
+      fix spelling mistake
+
+caolan (1):
+      Merged in caolan/liblangtag (pull request #10)
+
 0.6.1 -> 0.6.2
 =================
 Akira TAGOH (1):
