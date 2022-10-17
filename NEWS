@@ -1,3 +1,11 @@
+0.6.3 -> 0.6.4
+=================
+Akira TAGOH (4):
+      Replace the word of 'master' to 'primary'
+      trivial update
+      Stop shipping ChangeLog
+      Fix build issue for docs
+
 0.6.2 -> 0.6.3
 =================
 Akira TAGOH (3):
