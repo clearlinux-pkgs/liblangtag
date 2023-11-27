@@ -1,3 +1,19 @@
+0.6.5 -> 0.6.6
+=================
+Akira TAGOH (2):
+      Do not use variable array of bash-ism.
+      Fix more compile warnings
+
+0.6.4 -> 0.6.5
+=================
+Akira TAGOH (6):
+      Fix the test case
+      Add missing headers
+      Drop GNOME-related macros
+      Fix some compiler warnings
+      Merged in issues/18 (pull request #11)
+      Update
+
 0.6.3 -> 0.6.4
 =================
 Akira TAGOH (4):
