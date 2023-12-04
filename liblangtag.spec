@@ -6,10 +6,10 @@
 # autospec commit: e661f3a
 #
 Name     : liblangtag
-Version  : 0.6.6
-Release  : 6
-URL      : https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.6.tar.bz2
-Source0  : https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.6.tar.bz2
+Version  : 0.6.7
+Release  : 7
+URL      : https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.7.tar.bz2
+Source0  : https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.7.tar.bz2
 Summary  : Interface to access tags for identifying languages
 Group    : Development/Tools
 License  : LGPL-3.0
@@ -83,15 +83,15 @@ license components for the liblangtag package.
 
 
 %prep
-%setup -q -n liblangtag-0.6.6
-cd %{_builddir}/liblangtag-0.6.6
+%setup -q -n liblangtag-0.6.7
+cd %{_builddir}/liblangtag-0.6.7
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1701093410
+export SOURCE_DATE_EPOCH=1701714044
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -131,7 +131,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1701093410
+export SOURCE_DATE_EPOCH=1701714044
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/liblangtag
 cp %{_builddir}/liblangtag-%{version}/COPYING %{buildroot}/usr/share/package-licenses/liblangtag/f45ee1c765646813b442ca58de72e20a64a7ddba || :
